@@ -1,0 +1,85 @@
+#menu4body *
+{
+    z-index:10;
+    margin:0px;
+    padding: 0px;
+}
+#menu4body
+{
+    height:50px;
+    box-shadow: 1px;/*box-shadow:0 15px 20px rgba(0, 0, 0, 0.3);*/
+}
+.navmenu
+{
+    width:100%;
+    background-color: white;
+    height:50px;
+    /*float:left;*/
+}
+.navmenu ul li
+{
+    width:100%;
+}
+.navmenu ul li
+{
+    list-style: none;
+    width:20%;
+    float: left;
+}
+.navmenu ul li a
+{
+    display:block;
+    width:50%;
+    text-decoration: none;
+    height:50px;
+    line-height:50px;
+    color:black;
+    font-size: 20px;
+    font-family: helvetica;
+    /*border:1px dashed red;*/
+}
+.navmenu ul li a:hover
+{
+    background-color: white;
+    color:brown;
+    transition: background 0.5s linear;
+    /*inear: animation timing function */
+}
+.navmenu ul li ul.megamenu
+{
+    width:100%;
+    /*padding:20px*/;
+    background-color: white;
+    position: absolute;
+    display:none;            
+}
+.navmenu ul li:hover ul.megamenu
+{
+    display:block;
+}
+.navmenu ul li:hover ul.megamenu li
+{
+    width:20%;
+    margin-right: 40px;
+    float:left;
+}
+.navmenu ul li:hover ul.megamenu li a
+{
+    /*padding:5px;*/
+    color:brown:
+}
+.navmenu ul li:hover ul.megamenu li a:hover
+{
+    background-color: white;
+    color:coral;
+}
+.navmenu ul li:hover ul.megamenu li h1
+{
+/*    padding:5px 0px;*/
+    font-size:15px;
+    color:black;
+}
+.navmenu ul li:hover ul.megamenu p
+{
+
+}

@@ -1,0 +1,56 @@
+section
+{
+	height:auto;
+	width:100%;
+	background-color:white;
+	margin:0;
+	padding:0;
+}
+#payment-form
+{
+	height:500px;
+	width:30%;
+	background-color: white;
+	border:0.5px solid #ccccca;
+	border-radius:3px;
+	margin:50px auto;
+}
+#payment-form #form-head
+{
+	width:100%;
+	margin:0;
+	padding:0;border-bottom:0.5px solid #ccccca;
+	border-radius:0px 0px 3px 3px;
+}
+#payment-form .form-field
+{
+
+	height:auto;
+	width:90%;
+	margin:10px auto;
+}
+#payment-form .form-field input
+{
+	height:30px;
+	width:100%;
+	margin:10px auto;
+	border: 1px solid #ccccca;
+	border-radius: 5px;
+}	
+#payment-form #date
+{
+	width:49%;
+}
+#payment-form #cvv
+{
+	width:49%;
+}
+#payment-form button
+{
+	line-height:40px;background-color:#5cb85c;
+	border: 1px solid #ccccca;
+	border-radius: 5px;width:50%;
+	box-shadow: #666 0px 0px 1px;
+}
+
+

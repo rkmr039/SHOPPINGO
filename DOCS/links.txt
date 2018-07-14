@@ -1,0 +1,8 @@
+http://java.candidjava.com/tutorial/Simple-login-example-using-Servlet-and-JSP.htm
+
+
+
+usrerdata
+id AI
+uname
+pass

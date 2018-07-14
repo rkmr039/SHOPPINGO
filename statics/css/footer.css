@@ -1,0 +1,111 @@
+#footer
+{
+    margin: 0;
+    padding: 0;clear:all;
+    /*border: 1px dashed black;*/
+}
+#top
+{
+   /*border: 1px dashed black;*/
+   height:230px;
+}
+#top div
+{
+    float: left;
+    /*border: 1px dashed red;*/
+    
+}
+#top ol
+{
+    list-style-type: none;
+    /*border: 1px dashed blue;*/
+}
+#footer a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#top ol li
+{
+    /*border: 1px dashed black;*/
+    padding:5px;
+    border-bottom: 3px solid #f1f1f1;
+     
+}
+#top #left
+{
+    width: 29.5%;
+}
+
+#top #right
+{
+    float:right;
+    width: 30.5%;
+    position: absolute;
+    right:30px;
+}
+
+#top #middle
+{
+    width: 36.5%;
+}
+#bottom
+{
+    height: auto;margin-left: 40px;
+    /*border: 1px dashed red;*/
+}
+#bottom div
+{
+    /*border: 1px dashed blue;*/
+}
+
+#payment-method
+{
+    width:65%;float:left; height:150px;
+}
+#payment-method h3
+{
+    /*border:1px dashed red;*/
+}
+#payment-method img
+{
+    height:90px;border:1px dashed white;
+}
+#social-site
+{
+    width:31%;float: right;height:150px;
+}
+#social-site a img
+{
+    float: left;
+    height:90px;
+    margin-right: 5px;
+}
+#copyright
+{
+    /*border:1px dashed red;*/
+    float:left;width:100%;  
+}
+#copyright h3
+{
+    /*border: 1px dashed black;*/
+}
+#policies
+{
+    /*border:1px solid blue;*/
+    width:65%;float:left;
+}
+#policies h3
+{
+    float:left;height:29px;
+    line-height: 26px;padding-right: 20px;
+}
+#policies h5
+{
+    width:20%;float:left;margin:0;
+    height:30px;line-height: 30px;
+    display:block;font-size: 15px;
+    border-right: 3px solid #f1f1f1;
+    text-align: center;
+    margin-top:15px;
+}
